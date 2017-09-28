@@ -12,7 +12,7 @@ while(a.length<10)
      {if (a[i] == k)
         {IsFound = True;
           break;} }
- if (IsFound==True) then
+ if (IsFound==True)
      {alert('Элемент ', k, ' найден!');}  
  else
      {alert('Элемент ', k, ' не найден');} 
