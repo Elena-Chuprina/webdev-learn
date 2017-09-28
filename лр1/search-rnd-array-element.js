@@ -1,20 +1,19 @@
 var
   a = [];
-  isFound = False;
   i = 0;
 while(a.length<10) 
     {b = Math.floor(Math.random() * 15);
       a.push(b);}
- alert('Filled random array: ');
+ k = promt('Введите число:', 1);
+ alert('Случайный массив: ');
  for (i = 0; i < 10; i++)
     {alert(a[i], ' ');}  
- k = promt('Check number!', 1);
  for (i = 0; i < 10; i++)
-     {if a[i] == k then 
+     {if (a[i] == k)
         {IsFound = True;
           break;} }
  if (IsFound==True) then
-     {alert('Element ', k, ' is found!');}  
-  else
-     {alert('Element ', k, ' not found');} 
+     {alert('Элемент ', k, ' найден!');}  
+ else
+     {alert('Элемент ', k, ' не найден');} 
 
