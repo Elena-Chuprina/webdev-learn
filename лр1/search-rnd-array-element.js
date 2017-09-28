@@ -1,10 +1,11 @@
 var
   a = [];
   i = 0;
+  IsFound = False;
 while(a.length<10) 
     {b = Math.floor(Math.random() * 15);
       a.push(b);}
- k = promt('Введите число:', 1);
+ k = prompt('Введите число:', 1);
  alert('Случайный массив: ');
  for (i = 0; i < 10; i++)
     {alert(a[i], ' ');}  
