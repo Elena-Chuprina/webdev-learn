@@ -14,7 +14,7 @@ while(a.length<10)
         {IsFound = true;
           break;} }
  if (IsFound==false)
-     {alert('Элемент ', k, ' найден!');}  
+     {alert('Элемент '+ k + ' найден!');}  
  else
-     {alert('Элемент ', k, ' не найден');} 
+     {alert('Элемент '+ k + ' не найден');} 
 
