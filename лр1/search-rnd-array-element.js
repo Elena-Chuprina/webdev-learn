@@ -1,6 +1,6 @@
 var Arr = [];
 var Size = 0;
-while(Arr.length<10) {
+while (Arr.length<10) {
     a.push(Math.floor(Math.random() * 15);
     }
     Num = prompt('Введите число:', 1);
