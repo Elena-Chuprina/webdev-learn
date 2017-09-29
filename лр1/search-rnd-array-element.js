@@ -1,7 +1,9 @@
+function search() { 
 var Arr = [];
 var Size = 0;
 while (Arr.length<10) {
-    a.push(Math.floor(Math.random() * 15);
+    tmp = Math.floor(Math.random() * 15);
+    Arr.push(tmp);
     }
     Num = prompt('Введите число:', 1);
     alert('Случайный массив: '+ Arr.join (' '));
@@ -17,4 +19,4 @@ while (Arr.length<10) {
     } else {
             alert('Элемент '+ Num + ' не найден');
     } 
-
+}
