@@ -1,22 +1,22 @@
 function search() { 
-var Arr = [];
-var Size = 0;
-while (Arr.length<10) {
-    tmp = Math.floor(Math.random() * 15);
-    Arr.push(tmp);
-    }
-    Num = prompt('Введите число:', 1);
-    alert('Случайный массив: '+ Arr.join (' '));
-    var IsFound = true;
-    for (Size = 0; Size < 10; Size++) {
-        if (Arr[Size] == Num) {
-            IsFound = true;
-            break;
-        } 
-    }
-    if (IsFound==false)
-        {alert('Элемент '+ Num + ' найден!');
-    } else {
-            alert('Элемент '+ Num + ' не найден');
-    } 
+  var Arr = [];
+  var Size = 0;
+  while (Arr.length<10) {
+      tmp = Math.floor(Math.random() * 15);
+      Arr.push(tmp);
+  }
+  Num = prompt('Введите число:', 1);
+  alert('Случайный массив: '+ Arr.join (' '));
+  var IsFound = true;
+  for (Size = 0; Size < 10; Size++) {
+      if (Arr[Size] == Num) {
+        IsFound = true;
+        break;
+      } 
+  }
+  if (IsFound==false) {
+      alert('Элемент '+ Num + ' найден!');
+  } else {
+      alert('Элемент '+ Num + ' не найден');
+  } 
 }
