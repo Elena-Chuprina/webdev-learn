@@ -13,7 +13,8 @@ while(Arr.length<10) {
         } 
     }
     if (IsFound==false)
-        {alert('Элемент '+ Num + ' найден!');}  
-    else
-        {alert('Элемент '+ Num + ' не найден');} 
+        {alert('Элемент '+ Num + ' найден!');
+    } else {
+            alert('Элемент '+ Num + ' не найден');
+    } 
 
