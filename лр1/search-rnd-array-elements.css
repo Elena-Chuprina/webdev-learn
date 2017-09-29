@@ -1,0 +1,19 @@
+body {
+  font: Verdana;
+  color: green;
+}
+
+.search-rnd-array-elements {
+  text-align: center;
+}
+
+.search-rnd-array-elements p .title {
+  font-weight: bold;
+}
+
+.search-rnd-array-elements .button {
+  width: 150px;
+  height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+}
