@@ -10,8 +10,8 @@ while(Arr.length<10) {
         if (Arr[Size] == Num) {
             IsFound = true;
             break;
-            } 
-        }
+        } 
+    }
     if (IsFound==false)
         {alert('Элемент '+ Num + ' найден!');}  
     else
