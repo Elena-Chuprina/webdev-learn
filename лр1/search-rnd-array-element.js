@@ -1,20 +1,19 @@
 function search() { 
-  var Arr = [];
-  var Size = 0;
-  while (Arr.length<10) {
-      tmp = Math.floor(Math.random() * 15);
-      Arr.push(tmp);
+  var arr = [];
+  var size = 0;
+  while (arr.length<10) {
+      arr.push(Math.floor(Math.random() * 15));
   }
   Num = prompt('Введите число:', 1);
-  alert('Случайный массив: '+ Arr.join (' '));
-  var IsFound = true;
-  for (Size = 0; Size < 10; Size++) {
-      if (Arr[Size] == Num) {
-        IsFound = true;
+  alert('Случайный массив: '+ arr.join (' '));
+  var IsFound = false;
+  for (size = 0; size < 10; size++) {
+      if (arr[size] == Num) {
+        isFound = true;
         break;
       } 
   }
-  if (IsFound==false) {
+  if (isFound==true) {
       alert('Элемент '+ Num + ' найден!');
   } else {
       alert('Элемент '+ Num + ' не найден');
