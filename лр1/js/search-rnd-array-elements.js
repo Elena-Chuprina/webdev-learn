@@ -4,7 +4,7 @@ function search() {
   while (arr.length<10) {
     arr.push(Math.floor(Math.random() * 15));
   }
-  var num = prompt('Введите число:', 1);
+  var num = prompt('Введите число:', 0);
   alert('Случайный массив: '+ arr.join (' '));
   var isFound = false;
   for (size = 0; size < 10; size++) {
