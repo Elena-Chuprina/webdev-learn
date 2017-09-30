@@ -13,7 +13,7 @@ function search() {
         break;
       } 
   }
-  if (isFound==true) {
+  if (isFound == true) {
       alert('Элемент '+ num + ' найден!');
   } else {
       alert('Элемент '+ num + ' не найден');
